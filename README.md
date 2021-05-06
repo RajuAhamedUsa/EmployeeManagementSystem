@@ -1,2 +1,1 @@
-# EmployeeManagementSystem
-Employee Management System where Admin can add, edit, delete and search employee based on searching criteria. 
+Employee Management System Using Angular And Node Js with MongoDB Database
