@@ -1,0 +1,45 @@
+
+
+<div class="row">
+  <div class="col-md-4">
+    <form>
+      <div class="form-group">
+        <label class="form-check-label" >Employee Name</label>
+        <input class="form-control" type="text" name="Name" [(ngModel)]="Name" >
+
+      </div>
+      <div class="form-group">
+        <label class="form-check-label" >Date of Birth</label>
+        <input class="form-control" type="text" name="DateOfBirth" [(ngModel)]="DateOfBirth" >
+
+      </div>
+
+      <div class="form-group">
+        <label class="form-check-label" >Location</label>
+        <input class="form-control" type="text" name="Location" [(ngModel)]="Location" >
+
+      </div>
+
+      <div class="form-group">
+        <label class="form-check-label" >Salary</label>
+        <input class="form-control" type="text" name="Salary" [(ngModel)]="Salary" >
+
+      </div>
+
+      <div class="form-group">
+        <label class="form-check-label" >DepartmentId</label>
+        <input class="form-control" type="number" name="DepartmentId" [(ngModel)]="DepartmentId" >
+
+      </div>
+      <div class="form-group">
+        <label class="form-check-label" >Phone Number</label>
+        <input class="form-control" type="number" name="PhoneNumber" [(ngModel)]="PhoneNumber" >
+
+      </div>
+
+       <button class=" btn btn-primary" (click)="AddEmp()">{{addEditButtonName}}</button>
+    </form>
+
+
+  </div>
+</div>
